@@ -1,4 +1,4 @@
-FROM openpose-prerequisites:latest
+FROM konyaka/openpose-prerequisites:latest
 
 ADD ./openpose-1.7.0/ ./openpose/
 ADD ./opencv-3.4.14/ ./opencv-3.4.14/
