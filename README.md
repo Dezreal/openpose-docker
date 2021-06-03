@@ -2,8 +2,6 @@
 
 OpenPose Python API v1.7.0 with Cuda 10.0, built on [konyaka/openpose-prerequisites](https://hub.docker.com/r/konyaka/openpose-prerequisites).
 
-------
-
 GitHub: https://github.com/Dezreal/openpose-docker
 
 DockerHub: https://hub.docker.com/r/konyaka/openpose
@@ -55,7 +53,7 @@ $ sudo docker run -it --gpus all openpose
 /openpose/build# exit
 ```
 
-You will see
+You will see a console output shown such as:
 
 ```bash
 Thu Jun  3 02:43:49 2021       
@@ -81,7 +79,7 @@ Thu Jun  3 02:43:49 2021
 
 ```
 
-and
+and Python output:
 
 ```bash
 Starting OpenPose Python Wrapper...
